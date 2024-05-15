@@ -1,0 +1,114 @@
+/* import fonts from fonts.css */
+@import url(fonts.css);
+
+/* import variables from variables.css */
+@import url(partials/_variables.css);
+
+/* import global styling from global.css */
+@import url(partials/_global.css);
+
+
+
+/*start navigation*/
+.header_area .main-menu .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0rem 2rem 0rem 5rem;
+}
+
+.header_area .main-menu .navbar-header .navbar-brand .nav{
+    padding: 0 2rem 0 5rem;
+   ;}
+
+.header_area .main-menu .navbar-default{
+    padding: 1rem 20rem;
+} 
+
+.header_area .main-menu .nav{
+font:normal 500 15px/2px var(--freeman);
+text-transform: uppercase;
+padding: 1.7rem;
+color: var(--title-color);
+}
+
+.header_area .main-menu .nav .active a{
+    background:var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/*highlight active link*/
+
+.header_area .main-menu .nav  a:hover{
+    background:var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/*hover effect on link*/
+
+
+/*--------end navigation---------------------*/
+
+
+
+/*--------start banner area---------------------*/
+
+.site-main .site-banner {
+    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
+   
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 15%;
+    font-weight: 500;
+}
+
+
+.site-main .site-banner .site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transition: translateY(-10px);
+}
+.site-main .site-banner .site-title h1{
+    font-size:5rem;
+
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 50rem;
+}
+
+/*--------end banner area---------------------*/
+
+/*--------start about area---------------------*/
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span{ 
+    display: block;
+    font: normal bold 49px/60px var(--freeman);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/*--------end about area---------------------*/
+
+/*--------start brand area---------------------*/
+
+
+
+/*--------end brand area---------------------*/
